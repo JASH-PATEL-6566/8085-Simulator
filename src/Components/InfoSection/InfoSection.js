@@ -22,7 +22,8 @@ function InfoSection() {
 
     const [memory, setMemory] = useState({});
 
-
+    setMemory();
+    setRegister(register);
     return (
         <div className="info_container">
             <SpecialDiv
