@@ -1,0 +1,14 @@
+.info_button {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.none-display {
+    display: none;
+}
+
+.block-display {
+    display: block;
+}

@@ -1,0 +1,66 @@
+.registerContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.registerTableContainer {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #cef2ff;
+    z-index: 1111;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #cef2ff;
+    text-align: left;
+}
+
+td:first-child {
+    width: 40%;
+    word-wrap: break-word;
+    position: relative;
+}
+
+tr:hover {
+    background-color: #daf5ff54;
+}
+
+tr:hover .edit-icon {
+    display: block;
+}
+
+td[type*="icon"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-icon {
+    display: none;
+    width: 16px;
+    right: 0;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-right: 8px;
+}

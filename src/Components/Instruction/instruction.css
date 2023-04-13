@@ -1,0 +1,17 @@
+.instruction_container {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.instruction_container h2 {
+    margin: 0;
+}
+
+.instruction_container input {
+    text-transform: uppercase;
+}
